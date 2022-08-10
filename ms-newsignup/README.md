@@ -3,13 +3,13 @@
 
 
 ## Build instructions
-You will need version 11 of the JDK and the latest version of Apache Maven to compile and run this project
+You will need version 11 of the JDK and the latest version of Gradle to compile and run this project
 
 Run the following command to build and package this project
 ```
-mvn clean package
+gradle clean build
 ```
 Then run the following command to run the generated jar file
 ```
-java -jar target\java-eval-0.0.1-SNAPSHOT.jar
+java -jar build\libs\ms-signup-0.0.1-SNAPSHOT.jar
 ```
