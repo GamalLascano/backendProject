@@ -13,4 +13,4 @@ Then run the following command to run the generated jar file in each of the proj
 ```
 java -jar target\{project-name}-0.0.1-SNAPSHOT.jar
 ```
-where project-name = ms-signup , ms-newlogin or ms-consumer
+where project-name = backend, ms-signup , ms-newlogin or ms-consumer
